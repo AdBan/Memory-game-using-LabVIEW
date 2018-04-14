@@ -15,7 +15,7 @@
 	</Item>
 	<Item Name="Raspberry Pi 3 B" Type="Raspberry Pi 2 B">
 		<Property Name="alias.name" Type="Str">Raspberry Pi 3 B</Property>
-		<Property Name="alias.value" Type="Str">192.168.0.150</Property>
+		<Property Name="alias.value" Type="Str">192.168.1.20</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;LINX_DEVICE,True;LINX_DEVICE_FAMILY,4;LINX_DEVICE_ID,3;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -94,6 +94,7 @@ AddOutputFilter chunkFilter
 		<Item Name="GetButtonsStates (SubVI).vi" Type="VI" URL="../GetButtonsStates (SubVI).vi"/>
 		<Item Name="GetButtonsStates2 (SubVI).vi" Type="VI" URL="../GetButtonsStates2 (SubVI).vi"/>
 		<Item Name="GetButtonState.vi" Type="VI" URL="../GetButtonState.vi"/>
+		<Item Name="Interface.vi" Type="VI" URL="../../../LabVIEW programs/Interface.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="StarWarsMelody (SubVI).vi" Type="VI" URL="../StarWarsMelody (SubVI).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
