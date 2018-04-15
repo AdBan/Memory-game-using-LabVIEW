@@ -1,6 +1,6 @@
 [My Computer]
-My Computer = "192.168.0.220"
+My Computer = "169.254.233.1"
 
 [Raspberry Pi 3 B]
-Raspberry Pi 3 B = "192.168.0.150"
+Raspberry Pi 3 B = "192.168.0.157"
 

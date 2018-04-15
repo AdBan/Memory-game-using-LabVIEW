@@ -15,7 +15,7 @@
 	</Item>
 	<Item Name="Raspberry Pi 3 B" Type="Raspberry Pi 2 B">
 		<Property Name="alias.name" Type="Str">Raspberry Pi 3 B</Property>
-		<Property Name="alias.value" Type="Str">192.168.0.150</Property>
+		<Property Name="alias.value" Type="Str">192.168.0.157</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;LINX_DEVICE,True;LINX_DEVICE_FAMILY,4;LINX_DEVICE_ID,3;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -90,10 +90,12 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Buzzer.vi" Type="VI" URL="../Buzzer.vi"/>
+		<Item Name="Buzzer (SubVI).vi" Type="VI" URL="../Buzzer (SubVI).vi"/>
+		<Item Name="ChangeLevel (SubVI).vi" Type="VI" URL="../ChangeLevel (SubVI).vi"/>
 		<Item Name="GetButtonsStates (SubVI).vi" Type="VI" URL="../GetButtonsStates (SubVI).vi"/>
 		<Item Name="LightState(SubVI).vi" Type="VI" URL="../LightState(SubVI).vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="SequenceGenerator (SubVI).vi" Type="VI" URL="../SequenceGenerator (SubVI).vi"/>
 		<Item Name="StarWarsMelody (SubVI).vi" Type="VI" URL="../StarWarsMelody (SubVI).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
