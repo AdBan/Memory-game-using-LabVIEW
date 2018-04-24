@@ -1,0 +1,17 @@
+Color		LV	GPIO	WiringPI	Kolory
+----------------------------------------------------
+Green (B)	38	20	28		zielony
+Yellow (B)	31	6	22		¿ó³ty
+Blue (B)	40	21	29		niebieski
+White (B)	35	19	24		br¹zowy
+Red (B) 	15	22	3		czerwony
+SPEAKER		11	17	0		szary
+Green (L)	7	4	7		br¹zowy
+Yellow (L)	13	27	2		¿ó³ty
+Blue (L)	12	18	1		fioletowy
+White (L)	16	23	4		bia³y
+Red (L)		18	24	5		czerwony
+
+
+raspi-gpio set 20,6,21,19,22 ip pu
+raspi-gpio set 4,27,18,23,24,17 op
