@@ -95,17 +95,18 @@ AddOutputFilter chunkFilter
 		<Item Name="GetButtonsStates (SubVI).vi" Type="VI" URL="../GetButtonsStates (SubVI).vi"/>
 		<Item Name="LightIndicators (SubVI).vi" Type="VI" URL="../LightIndicators (SubVI).vi"/>
 		<Item Name="LightLEDs (SubVI).vi" Type="VI" URL="../LightLEDs (SubVI).vi"/>
-		<Item Name="LightState(SubVI).vi" Type="VI" URL="../LightState(SubVI).vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="PlayAndSignalize (SubVI).vi" Type="VI" URL="../PlayAndSignalize (SubVI).vi"/>
 		<Item Name="SequenceGenerator (SubVI).vi" Type="VI" URL="../SequenceGenerator (SubVI).vi"/>
-		<Item Name="StarWarsMelody (SubVI).vi" Type="VI" URL="../StarWarsMelody (SubVI).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="LMH-LINX.lvlib" Type="Library" URL="/&lt;vilib&gt;/MakerHub/LINX/LMH-LINX.lvlib"/>
 				<Item Name="Read.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/DIO/vis/Read.vi"/>
 				<Item Name="Smart Open.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/DIO/vis/Smart Open.vi"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
