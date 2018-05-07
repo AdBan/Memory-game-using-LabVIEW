@@ -93,6 +93,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Buzzer (SubVI).vi" Type="VI" URL="../Buzzer (SubVI).vi"/>
 		<Item Name="CropMelody (SubVI).vi" Type="VI" URL="../CropMelody (SubVI).vi"/>
 		<Item Name="GetButtonsStates (SubVI).vi" Type="VI" URL="../GetButtonsStates (SubVI).vi"/>
+		<Item Name="GolecMelody (SubVI).vi" Type="VI" URL="../GolecMelody (SubVI).vi"/>
 		<Item Name="LightIndicators (SubVI).vi" Type="VI" URL="../LightIndicators (SubVI).vi"/>
 		<Item Name="LightLEDs (SubVI).vi" Type="VI" URL="../LightLEDs (SubVI).vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
